@@ -147,7 +147,7 @@ while running:
                 else:  # hit brick on left or right
                     ball_velocity.x *= -1
 
-                # increase the speed by 20% if it's not a yellow brick, and it's the first time hitting this color
+                # increase the speed by 30% if it's not a yellow brick, and it's the first time hitting this color
                 if color != (255, 255, 0) and color not in colors_hit:
                     ball_velocity *= 1.3
                 colors_hit.add(color)
